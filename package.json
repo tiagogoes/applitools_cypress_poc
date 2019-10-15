@@ -1,0 +1,18 @@
+{
+  "name": "cypress_test",
+  "version": "1.0.0",
+  "description": "Project to test Stars Wars API",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiagodread/cypress_test"
+  },
+  "author": "Tiago Góes",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^3.3.0"
+  }
+}
