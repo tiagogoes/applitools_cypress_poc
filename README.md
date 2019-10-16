@@ -2,10 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/tiagogoes/applitools_cypress_poc.svg?style=svg)](https://circleci.com/gh/tiagogoes/applitools_cypress_poc)
 
-This project validates the status code and the structure of Star Wars API using cypress, the following end-points are:
-
-- https://swapi.co/api/people/1/
-- https://swapi.co/api/planets/1/
+This project contains a single test that assert visual regression of [geru home page](https://www.geru.com.br) 
 
 ## Install
 
@@ -13,11 +10,11 @@ If you don't have npm installed in your machine, you can install [HERE](https://
 
 1. Clone this repo:
 	```sh
-	$ git clone https://github.com/tiagodread/cypress_test.git
+	$ git clone https://github.com/tiagogoes/applitools_cypress_poc.git
 	```
 2. Go to project folder:
 	```sh
-	$ cd cypress_test
+	$ cd applitools_cypress_poc
 	```
 3. Install dependencies:
 	```sh
@@ -29,4 +26,4 @@ In the project folder execute:
 $ npm run cypress:open
 ```
 
-The Cypress runner will launch and you can choose between `people_spec.js` and `planet_spec.js` files.
+The Cypress runner will launch and you can choose `home.js` file.
