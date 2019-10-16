@@ -1,5 +1,6 @@
 # Welcome to Cypress & Applitools integration POC
 
+
 [![CircleCI](https://circleci.com/gh/tiagogoes/applitools_cypress_poc.svg?style=svg)](https://circleci.com/gh/tiagogoes/applitools_cypress_poc)
 
 This project contains a single test that assert visual regression of [geru home page](https://www.geru.com.br) 
