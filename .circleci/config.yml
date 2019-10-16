@@ -41,7 +41,8 @@ jobs:
           keys:
             - v1-dependencies-{{ checksum "package.json" }}
             - v1-dependencies-
-
+            
+      - run: "export APPLITOOLS_BATCH_ID=`echo $CIRCLE_SHA1`" 
       - run: yarn install && yarn test
 
 workflows:
