@@ -1,6 +1,6 @@
-# Welcome to Cypress Star Wars API validator!
+# Welcome to Cypress & Applitools integration POC
 
-[![CircleCI](https://circleci.com/gh/tiagodread/cypress_test/tree/master.svg?style=svg)](https://circleci.com/gh/tiagodread/cypress_test/tree/master)
+[![CircleCI](https://circleci.com/gh/tiagogoes/applitools_cypress_poc.svg?style=svg)](https://circleci.com/gh/tiagogoes/applitools_cypress_poc)
 
 This project validates the status code and the structure of Star Wars API using cypress, the following end-points are:
 
